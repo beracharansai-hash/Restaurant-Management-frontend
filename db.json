@@ -1,0 +1,153 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Charan",
+      "email": "charan@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "Sai",
+      "email": "sai@gmail.com",
+      "password": "12345678",
+      "id": "M2O-nMyHLtU"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "1",
+      "name": "Smoky Chicken 65",
+      "category": "Starters",
+      "price": 220,
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80",
+      "description": "Tender chicken pieces marinated with aromatic spices and fried until perfectly crisp.",
+      "ingredients": "Chicken, ginger, garlic, chilli, curry leaves and Indian spices",
+      "rating": 4.8,
+      "type": "Non-Veg",
+      "prepTime": "20 mins"
+    },
+    {
+      "id": "2",
+      "name": "Farmhouse Veggie Pizza",
+      "category": "Pizza",
+      "price": 299,
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=80",
+      "description": "A cheesy hand-tossed pizza topped with colourful garden vegetables and Italian herbs.",
+      "ingredients": "Pizza base, mozzarella, capsicum, onion, mushroom and tomato",
+      "rating": 4.7,
+      "type": "Veg",
+      "prepTime": "25 mins"
+    },
+    {
+      "id": "3",
+      "name": "Royal Chicken Biryani",
+      "category": "Biryani",
+      "price": 250,
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=900&q=80",
+      "description": "Fragrant basmati rice layered with juicy chicken, fried onions, mint and traditional spices.",
+      "ingredients": "Basmati rice, chicken, onion, mint, saffron and spices",
+      "rating": 4.9,
+      "type": "Non-Veg",
+      "prepTime": "35 mins"
+    },
+    {
+      "id": "4",
+      "name": "Creamy Paneer Royale",
+      "category": "Main Course",
+      "price": 240,
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=900&q=80",
+      "description": "Soft paneer cubes simmered in a rich tomato, butter and cream gravy.",
+      "ingredients": "Paneer, tomato, butter, cream, cashews and spices",
+      "rating": 4.6,
+      "type": "Veg",
+      "prepTime": "25 mins"
+    },
+    {
+      "id": "5",
+      "name": "Peri Peri Chicken Burger",
+      "category": "Burgers",
+      "price": 189,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+      "description": "Juicy crispy chicken layered with lettuce, cheese and our signature peri peri sauce.",
+      "ingredients": "Chicken patty, burger bun, lettuce, cheese and peri peri sauce",
+      "rating": 4.5,
+      "type": "Non-Veg",
+      "prepTime": "15 mins"
+    },
+    {
+      "id": "6",
+      "name": "Chocolate Lava Cake",
+      "category": "Desserts",
+      "price": 149,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=80",
+      "description": "Warm chocolate cake with a rich molten chocolate centre served with vanilla ice cream.",
+      "ingredients": "Dark chocolate, flour, butter, sugar and vanilla ice cream",
+      "rating": 4.9,
+      "type": "Veg",
+      "prepTime": "12 mins"
+    },
+    {
+      "id": "7",
+      "name": "Mango Bliss Shake",
+      "category": "Beverages",
+      "price": 129,
+      "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=900&q=80",
+      "description": "A thick and refreshing mango shake prepared with fresh seasonal mangoes.",
+      "ingredients": "Fresh mango, milk, vanilla ice cream and sugar",
+      "rating": 4.4,
+      "type": "Veg",
+      "prepTime": "8 mins"
+    },
+    {
+      "id": "8",
+      "name": "Crispy Masala Dosa",
+      "category": "South Indian",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=900&q=80",
+      "description": "Golden crispy dosa filled with spicy potato masala and served with chutneys.",
+      "ingredients": "Rice, urad dal, potato, onion, mustard seeds and curry leaves",
+      "rating": 4.7,
+      "type": "Veg",
+      "prepTime": "15 mins"
+    },
+    {
+      "name": "Tandoori Chicken",
+      "category": "Starters",
+      "price": 300,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxvnszbiqn5Q960BBKhqZ3wPX6qwHpTtvlOqtkH5U5qqT5Iv03FLHvM7WNEW3tlikqFgm_XwWCNQ8dolo877vJ46KsIO9_w0rwyFonMunm&s=10",
+      "description": "Juicy chicken marinated in aromatic spices and yogurt, then grilled to perfection in a traditional tandoor.",
+      "ingredients": "chicken",
+      "rating": 4.7,
+      "type": "Non-Veg",
+      "prepTime": "20mins",
+      "id": "zQ8JhhTKBJY"
+    },
+    {
+      "name": "Garden Fresh Pizza",
+      "category": "Pizza",
+      "price": 320,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR742XDAjxMMDj9WA8y_BLtOLRHoO5UjFP91v7dBI_Clg&s=10",
+      "description": "A crispy cheesy pizza loaded with fresh vegetables, bell peppers, onions, tomatoes, and herbs.",
+      "ingredients": "sauses",
+      "rating": 4.5,
+      "type": "Veg",
+      "prepTime": "10 mins",
+      "id": "qGY1MznrdVI"
+    },
+    {
+      "name": "Hyderabadi Mutton Biryani",
+      "category": "Biryani",
+      "price": 400,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4QDizzYbi_P4u4pGKS8s4j1U40zM54VgT7xAgS5W_cQ&s=10",
+      "description": "fragrant basmati rice layered with tender mutton, saffron, fried onions, and rich aromatic spices.",
+      "ingredients": "Mutton, basmati rice, onion, yogurt, saffron, mint, coriander, biryani spices",
+      "rating": 4.8,
+      "type": "Non-Veg",
+      "prepTime": "20 mins",
+      "id": "he7rR3sf0T8"
+    }
+  ],
+  "favorites": []
+  
+  
+}
