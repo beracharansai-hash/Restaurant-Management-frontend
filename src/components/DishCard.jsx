@@ -4,6 +4,7 @@ import {
   getFavorites,
   deleteDish
 } from "../services/api";
+import { addToOrder } from "../services/order";
 
 function DishCard({ dish, onDelete }) {
 
@@ -71,6 +72,11 @@ function DishCard({ dish, onDelete }) {
     }
   };
 
+  const handleAddToOrder = () => {
+    addToOrder(dish);
+    alert(`${dish.name} added to your order.`);
+  };
+
 
   return (
 
@@ -136,6 +142,13 @@ function DishCard({ dish, onDelete }) {
         </div>
 
         <div className="card-actions">
+
+          <button
+            className="order-card-button"
+            onClick={handleAddToOrder}
+          >
+            Add to Order
+          </button>
 
           <Link
             to={`/dishes/${dish.id}`}

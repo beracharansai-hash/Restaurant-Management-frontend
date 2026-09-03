@@ -50,6 +50,13 @@ function Navbar() {
             ❤️ Favorites
           </NavLink>
 
+          <NavLink
+            to="/orders"
+            className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+          >
+            🛒 Order
+          </NavLink>
+
           {loggedInUser ? (
 
             <>

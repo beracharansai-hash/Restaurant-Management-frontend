@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getDishById } from "../services/api";
+import { addToOrder } from "../services/order";
 
 function DishDetails() {
 
@@ -50,6 +51,11 @@ function DishDetails() {
       </div>
     );
   }
+
+  const handleAddToOrder = () => {
+    addToOrder(dish);
+    alert(`${dish.name} added to your order.`);
+  };
 
   return (
     <div className="details-page">
@@ -128,9 +134,11 @@ function DishDetails() {
 
           </div>
 
-          <button className="order-button">
+          <button className="order-button" onClick={handleAddToOrder}>
             Add to Order 🛒
           </button>
+
+          <Link to="/orders" className="view-order-link">View Order</Link>
 
         </div>
 

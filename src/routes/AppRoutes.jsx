@@ -9,6 +9,7 @@ import Logout from "../pages/Logout";
 import Favorites from "../pages/Favorites";
 import AddDish from "../pages/AddDish";
 import EditDish from "../pages/EditDish";
+import Orders from "../pages/Orders";
 
 function AppRoutes() {
 
@@ -43,6 +44,8 @@ function AppRoutes() {
         path="/favorites"
         element={<Favorites />}
       />
+
+      <Route path="/orders" element={<Orders />} />
 
       <Route
         path="/add-dish"
